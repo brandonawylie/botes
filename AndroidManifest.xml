@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.brandon.botes">
+    <uses-sdk android:minSdkVersion="16" />
+    <application android:icon="@drawable/myicon">
+        <activity android:icon="@drawable/myicon" android:name="com.brandon.botes.NotepadMainActivity" android:label="@string/app_name" android:theme="@android:style/Theme.Holo.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/myicon" android:name="com.brandon.botes.NoteEditActivity" android:label="" android:theme="@android:style/Theme.Holo.Light" 
+            android:parentActivityName="com.brandon.botes.NotepadMainActivity">
+     <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.botes.NoteEdit" />
+            
+           </activity>
+    </application>
+    
+</manifest> 

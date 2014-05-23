@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/noteedit_icon"
+          android:title="set icon"
+          android:showAsAction="ifRoom" />
+    
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/noteedit_edit"
+          android:title="edit"
+          android:showAsAction="ifRoom" />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/noteedit_view"
+          android:title="view"
+          android:showAsAction="ifRoom" />
+</menu>

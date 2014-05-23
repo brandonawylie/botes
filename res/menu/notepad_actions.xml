@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/notepad_add"
+          android:title="add note"
+          android:showAsAction="ifRoom" />
+</menu>
